@@ -1,0 +1,113 @@
+Aqui está uma descrição de cada pasta:
+
+assets/: Contém todos os arquivos de recursos brutos.
+
+3D/: Recursos tridimensionais.
+models/: Modelos 3D.
+textures/: Texturas.
+materials/: Materiais.
+animations/: Animações.
+audio/: Arquivos de áudio.
+music/: Músicas de fundo.
+sfx/: Efeitos sonoros.
+fonts/: Arquivos de fontes.
+ui/: Recursos de interface de usuário, como imagens e ícones.
+shaders/: Arquivos de shader.
+scripts/: Contém todos os scripts do jogo.
+
+characters/: Scripts relacionados a personagens.
+environment/: Scripts relacionados ao ambiente.
+ui/: Scripts da interface de usuário.
+managers/: Scripts de gerenciamento, como gerenciadores de cena ou de som.
+scenes/: Contém todas as cenas do jogo.
+
+characters/: Cenas de personagens.
+environment/: Cenas do ambiente.
+ui/: Cenas da interface de usuário.
+levels/: Cenas dos níveis do jogo.
+addons/: Add-ons e plugins usados no projeto.
+
+resources/: Arquivos de recursos do Godot, como scripts .tres, .res e outros arquivos de configuração específicos.
+
+utils/: Scripts e ferramentas auxiliares, como scripts de build ou ferramentas de depuração.
+
+project.godot: Arquivo de configuração do projeto Godot.
+
+Dicas adicionais:
+Consistência nos Nomes: Use convenções de nomenclatura consistentes para arquivos e pastas. Isso facilita a busca e manutenção.
+Referenciamento Relativo: Use caminhos relativos ao referenciar recursos em seus scripts e cenas. Isso torna o projeto mais portátil.
+Separação Lógica: Mantenha uma separação clara entre lógica de jogo (scripts) e dados (recursos e cenas).
+Versionamento: Utilize um sistema de controle de versão, como o Git, para manter o controle de mudanças e colaborações.
+
+
+
+---
+
+
+
+Convenções de Nomenclatura Consistentes
+Scripts
+Nome: Descritivo da função ou objeto.
+Formato: object_type_or_function.gd
+Exemplo: player_character.gd, game_manager.gd
+Cenas
+Nome: Descritivo da cena.
+Formato: scene_type_specific_descriptor.tscn
+Exemplo: main_menu.tscn, level_1.tscn
+Estrutura Recomendada Atualizada
+Modelos 3D
+Nome: Descritivo do modelo.
+Formato: object_type_specific_descriptor.extension
+Exemplo: tree_oak.glb, character_player.glb
+Texturas
+Nome: Descritivo da textura e seu uso.
+Formato: object_type_specific_descriptor_texture_type.extension
+Exemplo: tree_oak_diffuse.png, character_player_normal.png
+Materiais
+Nome: Descritivo do material.
+Formato: object_type_specific_descriptor_material.extension
+Exemplo: tree_oak_material.tres, character_player_material.tres
+Animações
+Nome: Descritivo do objeto e tipo de animação.
+Formato: object_type_specific_descriptor_animation.extension
+Exemplo: character_player_run.anim, tree_oak_sway.anim
+Áudio
+Nome: Descritivo do som e seu uso.
+Formato: type_descriptor.extension
+Exemplo: music_theme_intro.ogg, sfx_jump.ogg
+Scripts
+Nome: Descritivo da função ou objeto.
+Formato: object_type_or_function.gd
+Exemplo: player_character.gd, game_manager.gd
+Cenas
+Nome: Descritivo da cena.
+Formato: scene_type_specific_descriptor.tscn
+Exemplo: main_menu.tscn, level_1.tscn
+Shaders
+Nome: Descritivo da função do shader.
+Formato: object_type_shader_type.extension
+Exemplo: water_surface.shader, character_outline.shader
+UI
+Nome: Descritivo da função ou elemento UI.
+Formato: ui_element_or_function.extension
+Exemplo: button_play.tscn, main_menu_layout.tscn
+Exemplos de Convenções
+Para um personagem jogador:
+Modelo: character_player.glb
+Textura: character_player_diffuse.png
+Material: character_player_material.tres
+Animação: character_player_run.anim
+Script: player_character.gd
+Cena: player_character.tscn
+Para um nível:
+Cena do nível: level_1.tscn
+Script do nível: level_1.gd
+Recursos específicos do nível, como:
+level_1_background.png
+level_1_music.ogg
+level_1_collision_map.tres
+Dicas Adicionais
+Prefixos e Sufixos: Use prefixos ou sufixos para categorizar melhor os arquivos. Por exemplo, sfx_, bg_, btn_.
+Numeração: Use numeração para versões ou variantes, como character_player_v1.gd, character_player_v2.gd.
+Modularidade: Divida grandes arquivos em partes menores e use nomes que reflitam essa divisão.
+Agora, com essas convenções, você terá uma estrutura clara e consistente para seus scripts e cenas no Godot Engine, facilitando a organização e a manutenção do seu projeto.
